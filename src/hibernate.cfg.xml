@@ -29,7 +29,7 @@
         <property name="hbm2ddl.auto">update</property>
  
         <!-- Mapping files -->
-        <mapping resource="user.hbm.xml" />
+        <mapping resource="Licence.hbm.xml" />
  
     </session-factory>
 </hibernate-configuration>

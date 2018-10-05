@@ -7,8 +7,8 @@ public class Licence {
 	String nom;
 	String categorie;
 	String type;
-	ArrayList<String> compatibilite;
-	ArrayList<String> droits;
+	String compatibilite;
+	String droits;
 	String description;
 	
 	public int getId() {
@@ -35,16 +35,16 @@ public class Licence {
 	public void setType(String type) {
 		this.type = type;
 	}
-	public ArrayList<String> getCompatibilite() {
+	public String getCompatibilite() {
 		return compatibilite;
 	}
-	public void setCompatibilite(ArrayList<String> compatibilite) {
+	public void setCompatibilite(String compatibilite) {
 		this.compatibilite = compatibilite;
 	}
-	public ArrayList<String> getDroits() {
+	public String getDroits() {
 		return droits;
 	}
-	public void setDroits(ArrayList<String> droits) {
+	public void setDroits(String droits) {
 		this.droits = droits;
 	}
 	public String getDescription() {
